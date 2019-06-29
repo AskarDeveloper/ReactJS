@@ -44,32 +44,32 @@ export default class GotService {
 
     _transformCharacter(char) {
         return {
-            name: char.name || 'no data',
-            gender: char.gender || 'no data',
-            born: char.born || 'no data',
-            died: char.died || 'no data',
-            culture: char.culture || 'no data',
+            name: char.name || 'No data',
+            gender: char.gender || 'No data',
+            born: char.born || 'No data',
+            died: char.died || 'No data',
+            culture: char.culture || 'No data',
             url: char.url
         }
     }
 
     _transformHouse(house) {
         return {
-            name: house.name || 'no data',
-            region: house.region || 'no data',
-            words: house.words || 'no data',
-            titles: house.titles || 'no data',
-            overlord: house.overlord || 'no data',
-            ancestralWeapons: house.ancestralWeapons || 'no data'
+            name: house.name || 'No data',
+            region: house.region || 'No data',
+            words: house.words || 'No data',
+            titles: house.titles || 'No data',
+            overlord: house.overlord || 'No data',
+            ancestralWeapons: house.ancestralWeapons || 'No data'
         }
     }
 
     _tranformBook(book) {
         return {
-            name: book.name || 'no data',
-            numberOfPages: book.numberOfPages || 'no data',
-            publiser: book.publiser || 'no data',
-            released: book.released || 'no data'
+            name: book.name || 'No data',
+            numberOfPages: book.numberOfPages || 'No data',
+            publiser: book.publiser || 'No data',
+            released: book.released || 'No data'
         }
     }
 }
